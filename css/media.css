@@ -1,3 +1,9 @@
+@media(max-width:991px) {
+    .menu_content {
+        height: auto;
+    }
+}
+
 @media(max-width:767px) {
     .navbar-brand {
         width: 50%;
@@ -44,10 +50,31 @@
 
     .section {
         margin-top: 25px;
-        text-align: left;
+        text-align: center;
     }
 
     .section i {
-        margin-left: inherit;
+        margin-left: auto;
+    }
+
+    .tab {
+        justify-content: center;
+    }
+
+    .tab ul {
+        flex-direction: row !important;
+        justify-content: center;
+    }
+
+    #pills-tab.nav-pills .nav-link.active {
+        border-left: 0 !important;
+        border-bottom: 1px solid var(--cs-btn);
+    }
+
+    #pills-tab.nav-pills .nav-link {
+        padding: 10px;
+        border-left: 0 !important;
+        border-bottom: 1px solid var(--cs-gray);
+        font-size: 16px;
     }
 }
