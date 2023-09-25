@@ -65,7 +65,7 @@ li {
     left: 0px;
     bottom: -10px;
     width: 0px;
-    height: 5px;
+    height: 4px;
     transition: all 0.3s ease-in-out 0s;
     z-index: 1;
 }
