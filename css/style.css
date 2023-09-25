@@ -25,6 +25,11 @@ li {
     --cs-gray: #8892B0;
 }
 
+.space{
+    background-color: var(--cs-bg);
+    padding: 30px;
+}
+
 .navbar {
     padding: 10px 0px;
     background-color: transparent;
